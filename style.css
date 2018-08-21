@@ -1,0 +1,234 @@
+body{
+    font-family:"Poppins";
+    padding:0;
+    margin:0 auto;
+}
+.clear{
+  float:none;
+  clear:both;
+}
+.menu-holder{
+    padding:35px 0 0 40px;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+ul li
+{
+    list-style:none;
+}
+a{
+    color:white;
+}
+ul.numbers a:hover{
+    text-decoration:none;
+    color:white;
+    border: 3px solid #3394D1;
+    border-radius: 360px;
+}
+.logo{
+    float:left;
+}
+.logo img{
+    width:100%;
+}
+.menu-holder .menu li{
+    float:left;
+}
+nav{
+    width: 789px;
+    margin:0 auto;
+}
+.menu-holder .icons,
+.menu-holder .menu{
+    float:left;
+}
+.menu-holder a{
+    font-size:15px;
+    margin-right:44px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.icons,
+.menu nav ul li{
+    padding-top: 6px;
+}
+.manu nav ul:last-child{
+    padding-top:0;
+}
+.last a{
+    margin-right:0;
+}
+.menu-holder .icons p {
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+.menu-holder .icons li{
+    float:left;
+}
+nav ul li.last{
+    padding: 4px 17px 4px 25px;
+    border:3px solid #3394D1;
+    border-radius:100px;
+    
+}
+nav ul li.last img{
+    margin-right:4px;
+}
+ul.list-icons li:first-child{
+    width: 20px;
+    margin-right: 18px;   
+}
+.stick.menu-holder{
+    background: #3399CC;
+    position: fixed;
+}
+.arrow{
+    margin-top:470px;
+}
+header ul.text{
+    text-align: center;
+    padding-top:358px;
+}
+header ul.text li#first{
+    font-size: 50px;
+    background:#fff;
+    color:#3394D1;
+    font-weight: 600;
+    width:600px;
+    margin:0 auto;
+}
+header ul.text li#second{
+    font-size: 90px;
+    color:#FFF;
+    font-weight: 600;
+    width:1190px;
+    margin-left:-200px;
+}
+header ul.text li#third{
+    font-size: 40px;
+    color:#FFF;
+}
+header ul.text li#last a{
+    font-size: 30px;
+    color:#FFF;
+    border:3px solid #3394D1;
+    border-radius:100px;
+    text-decoration: none;
+    padding-right:49px;
+    padding-left:49px;
+}
+header ul.text li#last{
+    padding-top: 40px;
+}
+header ul.numbers{
+    padding-left:550px;
+}
+header ul.numbers li{
+    padding:3px 10px 3px 10px;
+    margin-top:190px; 
+    float:left;
+    margin-right:30px;
+    color:#FFF;
+}
+ul.numbers a:hover{
+    padding:3px 10px 3px 10px;
+    margin:-3px -10px -3px -12px;
+    text-decoration:none;
+    color:white;
+    border: 3px solid #3394D1;
+    border-radius: 360px;
+}
+.slider{
+    background: url("foto.png") center center no-repeat;
+    height:950px;
+}
+main {
+    margin-top:52px;
+}
+.image-holder{
+    margin-left:60px;
+    position: relative;
+    padding:40px 0 0 0;
+}
+.image-holder img{
+    height: 560px;
+    width: 450px;
+}
+.absolute-box{
+    position: absolute;
+    top:0;
+    left:95px;
+}
+.box-right p{
+    font-size: 13px;
+    padding-left:100px;
+}
+.box-right p#first{
+    padding-top:200px;
+}
+.image-holder .blue-border{
+    height: 500px;
+    width:450px;
+    border:7px solid #3394D1;
+    z-index: 5;
+    position: relative;
+}
+.image-holder .blue-border::after{
+    content: "O  NAS";
+    font-size: 90px;
+    color:#3394D1;
+    font-weight: 700;
+    position:absolute;
+    right:-240px;
+    top:40px;
+    background:#fff;
+    padding: 10px 0 10px 0;
+    
+}
+.big-logo img{
+    width:100%;
+    margin-top:-80px;
+    margin-bottom:-20px;
+}
+footer{
+    padding:40px 0 80px 0;
+    background:#F5F5F5;
+    font-weight:300; 
+}
+.text-footer p{
+    font-size:18px;
+    line-height:13px;
+}
+.text-footer a{
+    text-decoration:none;
+    color:#9B9B9B;
+}
+.last-footer p{
+    color:#3394D1;
+}
+h3{
+    font-size:20px;
+    color:#4A4A4A;
+    font-weight: 400;
+}
+.title-footer{
+    padding:0 0 20px 0px;
+}
+.title-footer:after{
+    display: block;
+    content:"";
+    width:30px;
+    height:1px;
+    background:#3394D1;
+    margin-top:15px;
+}
+.footer{
+    margin-left:50px;
+}
